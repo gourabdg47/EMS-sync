@@ -1,0 +1,15 @@
+### DOCKER: 
+
+* To build docker image and pusto container:
+
+- docker build -t python-django-app .
+
+### DJANGO:
+
+- django-admin startproject ems
+- python manage.py startapp core
+- python manage.py runserver
+- python manage.py makemigrations
+- python manage.py migrate
+
+
